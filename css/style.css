@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.nav{
+    padding: 20px 0;
+    border: 1px solid black;
+}
+
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-group{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 0 28px;
+    margin-right: 46px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #444444;
+}
+
+.nav-btn{
+    background-color: #444444;
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+.nav-btn > span{
+    background-color: #fff;
+    color: #444444;
+    padding: 0 8px;
+    border-radius: 30px;
+}
+
+.btn-f{
+    margin-right: 20px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    gap: 0 104px;
+    margin-top: 100px;
+}
+
+.about-image{
+    max-width: 50%;
+    width: 100%;
+}
+
+.about-content{
+    max-width: 400px;
+}
+
+.content-highlight{
+    color: #E6B939;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.content-title{
+    font-size: 36px;
+    color: #575445;
+}
+
+.content-text{
+    color: #575445;
+}
+
+.content-link{
+    font-size: 15px;
+    color: #575445;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.promise{
+    background-color: #E1E1E1;
+    margin-top: 100px;
+    padding: 100px 0;
+}
+
+.promise-header{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.promise-cards{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.promise-card{
+    width: 100%;
+    max-width: 388px;
+    text-align: center;
+    padding: 50px 50px 60px 50px;
+}
+
+.promise-card > h4{
+    font-size: 20px;
+    color: #575445;
+    margin: 10px 0;
+}
+
+.promise-card > p{
+    font-size: 14px;
+    color: #575445;
+}
